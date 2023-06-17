@@ -1,0 +1,48 @@
+.select-point {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.5rem;
+  background: #007fff;
+  padding: 0.5rem 1rem;
+  color: white;
+  display: inline;
+  position: absolute;
+  bottom: 3rem;
+  left: 2rem;
+  border-radius: 4px;
+  z-index: 999;
+}
+
+.MuiGrid-root.legend {
+  z-index: 999;
+  width: 250px;
+  background: white;
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+}
+
+.time {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.optimal {
+  background: green;
+  width: 100%;
+  height: 5px;
+}
+
+.actual {
+  background: red;
+  width: 100%;
+  height: 5px;
+}
+
+.time-select {
+  position: absolute;
+  left: 10rem;
+  top: 1rem;
+  z-index: 999;
+  background: white;
+}
